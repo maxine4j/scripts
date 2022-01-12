@@ -17,5 +17,5 @@ These scripts are intended to be run on startup and will need to be installed in
 #### Mac
 
 1. Open System Preferences > Users & Groups > Login Items
-2. Add `scripts/startup/macos.sh as a new Login Item
+2. Add `scripts/startup/macos.sh` as a new Login Item
 
