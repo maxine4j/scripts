@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source ~/.nvm/nvm.sh
+
 set -euo pipefail
 
 MAIN_BRANCH_NAME="master"
