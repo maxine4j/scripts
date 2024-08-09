@@ -8,3 +8,4 @@ source ~/scripts/rc/base64.sh
 alias bump-packages="/Users/tings/scripts/bin/bump-packages.sh"
 alias update-snapshots="/Users/tings/scripts/bin/update-snapshots.sh"
 alias renovate-snapshots="/Users/tings/scripts/bin/renovate-snapshots.sh"
+alias git="git -c core.hooksPath=/dev/null"
