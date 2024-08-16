@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function b64d {
   echo -n '$1' | base64 -d

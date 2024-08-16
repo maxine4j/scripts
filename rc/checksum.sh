@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function verify-sha256 {
   EXPECTED_HASH=$1
@@ -16,4 +16,3 @@ function verify-sha256 {
   diff <(echo "$EXPECTED_HASH" ) <(echo "$ACTUAL_HASH")
   return 1  
 }
-

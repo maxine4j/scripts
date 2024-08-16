@@ -8,7 +8,7 @@ Some are designed to be run at login and others can should sourced by your shell
 
 ### Run Commands
 
-1. Please clone this repository to `~/scripts` and run `echo "source ~/scripts/rc/rc.sh" >> ~/.zshrc`
+1. Clone the repo to `~/scripts` and run `echo "source ~/scripts/rc.sh" >> ~/.zshrc`
 
 ### OS Specific Startup Scripts
 

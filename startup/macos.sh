@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # turn off cursor acceleration
 defaults write .GlobalPreferences com.apple.mouse.scaling -1
@@ -11,4 +11,3 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # turn off desktop icons
 defaults write com.apple.finder CreateDesktop false
-
