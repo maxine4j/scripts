@@ -9,3 +9,5 @@ alias git-checkout-from-main="\
   git -c core.hooksPath=/dev/null checkout origin/master -b"
 
 alias git-nv="git -c core.hooksPath=/dev/null"
+
+alias git-push-head="git push origin HEAD"
