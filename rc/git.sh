@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
-alias git-checkout-from-master="\
-  git -c core.hooksPath=/dev/null fetch origin master && \
-  git -c core.hooksPath=/dev/null checkout origin/master -b"
-
-alias git-checkout-from-main="\
-  git -c core.hooksPath=/dev/null fetch origin master && \
-  git -c core.hooksPath=/dev/null checkout origin/master -b"
-
 alias git-nv="git -c core.hooksPath=/dev/null"
 
-alias git-push-head="git push origin HEAD"
+alias git-checkout-from-master="\
+  git-nv fetch origin master && \
+  git-nv checkout origin/master -b"
+
+alias git-checkout-from-main="\
+  git-nv fetch origin master && \
+  git-nv checkout origin/master -b"
+
+
+alias git-push-head="git-nv push origin HEAD"
